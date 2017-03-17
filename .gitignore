@@ -1,0 +1,12 @@
+# Gulp and Node.js junk
+/node_modules
+/release
+
+# Sublime staff
+*.sublime-project
+
+# Hidden files etc
+.*
+*.log
+
+#EOF
