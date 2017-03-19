@@ -2,7 +2,7 @@
 /node_modules
 /release
 
-# Sublime staff
+# Sublime stuff
 *.sublime-project
 
 # Hidden files etc
