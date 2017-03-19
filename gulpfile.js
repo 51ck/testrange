@@ -12,7 +12,16 @@ gulp.task('pages', function(){
     ;
 });
 
-gulp.task('styles', function(){
+gulp.task('styles', ['sass'], function(){
+    return gulp.src('src/styles/*.css')
+        .pipe(autoprefixer())
+        .pipe(gulp.dest('release/css/'))
+        .pipe(browserSync.stream())
+    ;
+});
+
+
+gulp.task('sass', function(){
     return gulp.src('src/styles/*.sass')
         .pipe(sass.sync().on('error', sass.logError))
         .pipe(autoprefixer())
