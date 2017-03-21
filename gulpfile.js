@@ -52,10 +52,10 @@ gulp.task('serve', ['build'], function(){
             baseDir: 'release/'
         }
     });
-    gulp.watch('source/styles/**', ['styles']);
-    gulp.watch('source/js/**', ['scripts']);
-    gulp.watch('source/static/**', ['static']);
-    gulp.watch('source/*.html').on('change', function(){
+    gulp.watch('src/styles/**', ['styles']);
+    gulp.watch('src/js/**', ['scripts']);
+    gulp.watch('src/static/**', ['static']);
+    gulp.watch('src/*.html').on('change', function(){
         gulp.start('pages');
         browserSync.reload();
     });
