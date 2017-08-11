@@ -17,7 +17,7 @@ npm install gulp -g
 ### Get the testrange
 1. Clone the repo to ```<yourProjectDirectory>```:
 ```sh
-git clone http://coub.com/view/sksqe <yourProjectDirectory>
+git clone git@github.com:51ck/testrange.git <yourProjectDirectory>
 ```
 2. Install requiried node modules locally in ```<yourProjectDirectory>```:
 ```sh
