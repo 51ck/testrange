@@ -1,6 +1,6 @@
 # Gulp and Node.js junk
-/node_modules
-/release
+node_modules
+release
 
 # Sublime stuff
 *.sublime-project
